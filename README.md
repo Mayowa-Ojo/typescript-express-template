@@ -1,6 +1,6 @@
 # Typescript Express Template
 
-> Reduce the overhead of setting a new project with this minimal boilerplate.
+> Reduce the overhead of setting up a new project with this minimal boilerplate.
 
 ```
 Node v10.x.X+
