@@ -1,22 +1,23 @@
 {
-   "name": "image-repository",
+   "name": "typescript-express-template",
    "version": "1.0.0",
-   "description": "shopify backend internship challenge",
+   "description": "",
    "main": "dist/server.js",
    "scripts": {
       "start": "NODE_ENV=production node dist/server.js",
-      "start:background": "NODE_ENV=production pm2 start dist/server.js --name 'chillspot-server'",
+      "start:background": "NODE_ENV=production pm2 start dist/server.js --name <edit>",
       "start:dev": "nodemon",
       "start:prod": "npm run build && npm run start:background",
       "build": "rimraf ./dist && tsc --project tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist",
       "test": "cross-env NODE_ENV=test jest --detectOpenHandles"
    },
-   "homepage": "https://github.com/Mayowa-Ojo/chillspot-server/#README",
-   "repository": "github:Mayowa-Ojo/chillspot-server",
+   "homepage": "https://github.com/Mayowa-Ojo/typescript-express-template/#README",
+   "repository": "github:Mayowa-Ojo/typescript-express-template",
    "keywords": [
       "typescript",
       "jwt",
-      "nodejs"
+      "nodejs",
+      "template"
    ],
    "engines": {
       "node": "14.x.x",
