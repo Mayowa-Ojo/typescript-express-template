@@ -9,6 +9,18 @@ Express v4.x.X+
 Jest v26.x.X+
 ```
 
+#### Usage
+```shell
+$ mkdir <project>
+$ cd <project>
+$ git clone https://github.com/Mayowa-Ojo/typescript-express-template.git .
+$ npm install
+$ touch .env.development
+$ rm -rf .git/
+$ git init
+$ npm run start:dev
+```
+
 Features 
    - logger(winston)
    - error handling middleware
