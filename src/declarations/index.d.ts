@@ -4,6 +4,7 @@ declare interface IEnvConfig {
    PORT: string | number
    NODE_ENV: string
    API_VERSION: string | number
+   LOG_FILE: string
    DB_URI: string
    DB_NAME: string
    DB_USER: string

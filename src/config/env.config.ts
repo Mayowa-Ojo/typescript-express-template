@@ -12,6 +12,7 @@ export const config: IEnvConfig = {
    PORT: process.env.PORT || 6000,
    NODE_ENV: process.env.NODE_ENV || "development",
    API_VERSION: process.env.API_VERSION,
+   LOG_FILE: process.env.LOG_FILE || "server.log",
    DB_URI: process.env.DB_URI,
    DB_NAME: process.env.DB_NAME,
    DB_USER: process.env.DB_USER,
