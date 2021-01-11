@@ -3,7 +3,9 @@ import type { NextFunction, Request, Response } from "express";
 import type { IResponseError } from "~declarations/index.d";
 import logger from "~config/logger.config";
 
-export const notFoundError = (_req: Request, res:Response) => {
+export const notFoundError = (req: Request, res:Response) => {
+   logger.error(`${req.method} | 404 | ${req.originalUrl} | ${req.ip}`);
+
    res.status(404).json({
       ok: false,
       message: "the requested resource doesn't exist",
